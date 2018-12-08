@@ -1,7 +1,7 @@
 ---
 title: Soul Not 4 Sale
 subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+image: /img/twin_cities.jpg
 blurb:
   heading: Brief Description
   text: >-
