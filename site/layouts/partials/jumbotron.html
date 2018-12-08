@@ -1,4 +1,4 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
+<!--<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
   <div class="mw7 center ph3">
     <div class="db mb3">
       <div class="mw7 relative bg-fix-primary mb3">
@@ -15,4 +15,23 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
+
+
+
+	<!-- banner -->
+	<div class="banner" id="home" style="background-image: url('{{.imageUrl}}')">
+		<div class="container">
+			<div class="banner-text">
+				<div class="slider-info text-right">
+
+					<h1 class="text-uppercase">{{.title}}</h1>
+					{{ if .subtitle }}
+					<p class="text-white">{{.subtitle}}</p>
+					{{ end }}
+					<a class="btn btn-agile  mt-4 scroll" href="#about" role="button">read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
