@@ -87,13 +87,14 @@ a.navbar-brand {
 /* banner */
 
 .banner {
-    background: url(../images/banner.jpg)no-repeat;
+    background: url(../img/banner.jpg)no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
+    background-position: center center;
     z-index: 0;
 }
 
@@ -419,7 +420,7 @@ h2.stat-title.text-white {
 }
 
 .contact-top {
-    background: url(../images/slide.jpg)no-repeat;
+    background: url(../img/slide.jpg)no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -539,7 +540,7 @@ form.contact-wthree .form-control {
     height: 32px;
     border: none;
     text-indent: 100%;
-    background: url(../images/move-top.png) no-repeat 0px 0px;
+    background: url(../img/move-top.png) no-repeat 0px 0px;
 }
 
 #toTopHover {
