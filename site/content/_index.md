@@ -1,7 +1,7 @@
 ---
 title: Soul Not 4 Sale
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/twin_cities.jpg
+subtitle: This is where a tagline can go or this can be deleted.
+image: /img/banner_img.jpg
 blurb:
   heading: Brief Description
   text: >-
