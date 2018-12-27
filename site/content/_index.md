@@ -1,7 +1,7 @@
 ---
 title: Soul Not 4 Sale
 subtitle: This is where a tagline can go or this can be deleted.
-image: /img/banner_img.jpg
+image: /img/banner_img.jpg.png
 blurb:
   heading: Brief Description
   text: >-
