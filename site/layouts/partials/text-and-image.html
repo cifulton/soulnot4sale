@@ -1,4 +1,4 @@
-<div class="bg-grey-1 pv4">
+<!--<div class="bg-grey-1 pv4">
 	<div class="ph3 mw7 center">
 
 		<div class="flex-l mhn2-l">
@@ -18,4 +18,78 @@
 		</div>
 
 	</div>
-</div>
+</div>-->
+
+
+	<!-- services -->
+	<section class="about-w3ls py-md-5 pb-3" id="services">
+		<div class="row">
+			<div class="col-lg-8 section-3">
+				<div class="col-lg-8 mx-auto py-lg-5">
+					<h3 class="stat-title text-white">our services</h3>
+					<div class="row">
+						<div id='product-component-1545877356836'></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 img-section3 p-0 my-lg-auto mx-auto">
+				<img src="images/i4.png" alt="" class="img-fluid">
+			</div>
+		</div>
+	</section>
+	<!-- //services -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    /*<![CDATA[*/
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
+        }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'jrossstore.myshopify.com',
+          storefrontAccessToken: '7bd82efee3bc1c45f9c1dc7ca50403bb',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [2027677220928],
+            node: document.getElementById('product-component-1545877356836'),
+            moneyFormat: '${{amount}}',
+            options: {"product":{"layout":"horizontal","variantId":"all","width":"100%","contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"description":true,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"text-align":"left","@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"title":{"font-size":"26px"},"price":{"font-size":"18px"},"compareAt":{"font-size":"15px"}}},"cart":{"contents":{"button":true},"styles":{"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
+
+
