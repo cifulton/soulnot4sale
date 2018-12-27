@@ -9,7 +9,7 @@ blurb:
     input from the backend cms system adn can be catered and change to your
     likenen.  All text can be changed in this section includeing the title 
 intro:
-  heading: What we offer
+  heading: About Us
   text: >-
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
